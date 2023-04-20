@@ -13,6 +13,14 @@
         font-size: 32px;
     }
     
+    .rodape{
+        height: 10vh;
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width:992px){
+    
     .principal{
         flex-direction: row; 
     }
@@ -28,15 +36,13 @@
     
     .imagens{
         flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-around;
+        row-gap: 10px;
+        column-gap: 20px;
     }
     
     .amigurumi{
         height: 250px;
     }
-    
-    .rodape{
-        height: 10vh;
-        font-size: 32px;
-    }
-    
 }
