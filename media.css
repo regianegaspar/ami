@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){
+    .cabecalho{
+        height: 10vh;
+    }
+    
+    .logo-atelie{
+        height: 8vh;
+    }
+
+    .menu-item{
+        font-size: 32px;
+    }
+    
+    .principal{
+        flex-direction: row; 
+    }
+    
+    .principal-imagem{
+        display: none;
+    }
+    
+    .imagem-secundaria{
+        display: inline;
+        height: 60vh;
+    }
+    
+    .imagens{
+        flex-direction: row;
+    }
+    
+    .amigurumi{
+        height: 250px;
+    }
+    
+    .rodape{
+        height: 10vh;
+        font-size: 32px;
+    }
+    
+}

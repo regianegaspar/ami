@@ -1,0 +1,102 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Nunito+Sans&family=Yellowtail&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #ffffff 16.62%, #ffe5d9 85.61%);
+    font-family: 'Dongle', sans-serif;
+}
+
+.cabecalho{
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #d8e2dc;
+}
+
+.logo-atelie{
+    height: 6vh;
+}
+
+.menu{
+    display: flex;
+    gap: 32px
+}
+
+.menu-item{
+    font-family: 'Dongle', sans-serif;
+    color: #9d8189;
+    font-weight: 700px;
+    font-size: 24px;
+    text-shadow: 2px 2px 2px #f4acb7;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 32px;
+    padding: 32px;
+    
+}
+
+.principal-imagem{
+    height: 30vh;
+}
+
+.imagem-secundaria{
+    display: none;
+}
+
+.principal-texto{
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    background-color: #ffffffe0;
+    padding: 32px;
+    border-radius: 30px;
+}
+
+.imagens{
+    padding: 32px;
+    border-top: 0.4px solid #f4acb7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 32px;
+}
+
+.amigurumi{
+    height: 50vh;
+    border-radius: 50px;
+    padding: 24px;
+}
+
+.rodape{
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #d8e2dc;
+    font-family: 'Dongle', sans-serif;
+    color: #9d8189;
+    font-weight: 700px;
+    font-size: 24px;
+    text-shadow: 2px 2px 2px #f4acb7;
+}
+
+.nome{
+    font-family: 'Yellowtail', sans-serif;
+}
