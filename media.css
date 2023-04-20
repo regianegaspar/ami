@@ -13,6 +13,14 @@
         font-size: 32px;
     }
     
+    .imagens{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-around;
+        row-gap: 10px;
+        column-gap: 20px;
+    }
+    
     .rodape{
         height: 10vh;
         font-size: 32px;
@@ -32,14 +40,6 @@
     .imagem-secundaria{
         display: inline;
         height: 60vh;
-    }
-    
-    .imagens{
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-content: space-around;
-        row-gap: 10px;
-        column-gap: 20px;
     }
     
     .amigurumi{
